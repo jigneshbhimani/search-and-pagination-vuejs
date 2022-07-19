@@ -57,15 +57,15 @@ export default {
       axios.get("http://localhost:3000/items").then((response) => {
         if (this.search) {
           this.items = response.data.filter(
-            (items) =>
-              items.id.toString().includes(this.search.toString()) ||
-              items.first_name
+            (item) =>
+              item.id.toString().includes(this.search.toString()) ||
+              item.first_name
                 .toLowerCase()
                 .includes(this.search.toLowerCase()) ||
-              items.last_name
+              item.last_name
                 .toLowerCase()
                 .includes(this.search.toLowerCase()) ||
-              items.email.toLowerCase().includes(this.search.toLowerCase())
+              item.email.toLowerCase().includes(this.search.toLowerCase())
           );
         } else {
           this.items = response.data;
