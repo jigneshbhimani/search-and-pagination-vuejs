@@ -1,0 +1,311 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "first_name": "Jignesh",
+      "last_name": "Bhimani",
+      "email": "jignesh@gmail.com"
+    },
+    {
+      "id": 2,
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john@gmail.com"
+    },
+    {
+      "id": 3,
+      "first_name": "Jeet",
+      "last_name": "Meghpara",
+      "email": "jeet@gmail.com"
+    },
+    {
+      "id": 4,
+      "first_name": "Anmol",
+      "last_name": "Singh",
+      "email": "anmol@gmail.com"
+    },
+    {
+      "id": 5,
+      "first_name": "Samir",
+      "last_name": "Rabadiya",
+      "email": "samir@gmail.com"
+    },
+    {
+      "id": 6,
+      "first_name": "Bhargav",
+      "last_name": "Makwana",
+      "email": "bhargav@gmail.com"
+    },
+    {
+      "id": 7,
+      "first_name": "Vraj",
+      "last_name": "Patel",
+      "email": "vraj@gmail.com"
+    },
+    {
+      "id": 8,
+      "first_name": "Virat",
+      "last_name": "Kohli",
+      "email": "virat@gmail.com"
+    },
+    {
+      "id": 9,
+      "first_name": "Rohit",
+      "last_name": "Sharma",
+      "email": "rohit@gmail.com"
+    },
+    {
+      "id": 10,
+      "first_name": "Kedar",
+      "last_name": "Jadhav",
+      "email": "kedar@gmail.com"
+    },
+    {
+      "id": 11,
+      "first_name": "Ravindra",
+      "last_name": "Jadeja",
+      "email": "ravindra@gmail.com"
+    },
+    {
+      "id": 12,
+      "first_name": "Rahul",
+      "last_name": "KL",
+      "email": "rahul@gmail.com"
+    },
+    {
+      "id": 13,
+      "first_name": "Raj",
+      "last_name": "Trambadiya",
+      "email": "raj@gmail.com"
+    },
+    {
+      "id": 14,
+      "first_name": "Jay",
+      "last_name": "Dholakiya",
+      "email": "jay@gmail.com"
+    },
+    {
+      "id": 15,
+      "first_name": "Parth",
+      "last_name": "Jethwa",
+      "email": "parth@gmail.com"
+    },
+    {
+      "id": 16,
+      "first_name": "Jasprit",
+      "last_name": "Bumrah",
+      "email": "jasprit@gmail.com"
+    },
+    {
+      "id": 17,
+      "first_name": "Siraj",
+      "last_name": "Mohmmad",
+      "email": "siraj@gmail.com"
+    },
+    {
+      "id": 18,
+      "first_name": "Ankita",
+      "last_name": "Makwana",
+      "email": "ankita@gmail.com"
+    },
+    {
+      "id": 19,
+      "first_name": "Disha",
+      "last_name": "Vekariya",
+      "email": "disha@gmail.com"
+    },
+    {
+      "id": 20,
+      "first_name": "Jensi",
+      "last_name": "Padaliya",
+      "email": "jensi@gmail.com"
+    },
+    {
+      "id": 21,
+      "first_name": "Farid",
+      "last_name": "Gaha",
+      "email": "farid@gmail.com"
+    },
+    {
+      "id": 22,
+      "first_name": "Ajay",
+      "last_name": "Dholakiya",
+      "email": "ajay@gmail.com"
+    },
+    {
+      "id": 23,
+      "first_name": "Akshay",
+      "last_name": "Lunagariya",
+      "email": "akshay@gmail.com"
+    },
+    {
+      "id": 24,
+      "first_name": "Akshat",
+      "last_name": "Makwana",
+      "email": "akshat@gmail.com"
+    },
+    {
+      "id": 25,
+      "first_name": "Krishna",
+      "last_name": "Sandhu",
+      "email": "krishna@gmail.com"
+    },
+    {
+      "id": 26,
+      "first_name": "Shiv",
+      "last_name": "Ramani",
+      "email": "shiv@gmail.com"
+    },
+    {
+      "id": 27,
+      "first_name": "Kartavya",
+      "last_name": "Gauswami",
+      "email": "kartavya@gmail.com"
+    },
+    {
+      "id": 28,
+      "first_name": "Divyaraj",
+      "last_name": "Jadeja",
+      "email": "divyaraj@gmail.com"
+    },
+    {
+      "id": 29,
+      "first_name": "Arpit",
+      "last_name": "Desai",
+      "email": "arpit@gmail.com"
+    },
+    {
+      "id": 30,
+      "first_name": "Ankit",
+      "last_name": "Vora",
+      "email": "ankit@gmail.com"
+    },
+    {
+      "id": 31,
+      "first_name": "Savan",
+      "last_name": "Pithdiya",
+      "email": "savan@gmail.com"
+    },
+    {
+      "id": 32,
+      "first_name": "Harsh",
+      "last_name": "Patel",
+      "email": "harsh@gmail.com"
+    },
+    {
+      "id": 33,
+      "first_name": "Jatin",
+      "last_name": "Ambasana",
+      "email": "jatin@gmail.com"
+    },
+    {
+      "id": 34,
+      "first_name": "Darshil",
+      "last_name": "Patel",
+      "email": "darshil@gmail.com"
+    },
+    {
+      "id": 35,
+      "first_name": "Nilesh",
+      "last_name": "Vora",
+      "email": "nilesh@gmail.com"
+    },
+    {
+      "id": 36,
+      "first_name": "Dhaval",
+      "last_name": "Rabadiya",
+      "email": "dhaval@gmail.com"
+    },
+    {
+      "id": 37,
+      "first_name": "Priya",
+      "last_name": "Ramani",
+      "email": "priya@gmail.com"
+    },
+    {
+      "id": 38,
+      "first_name": "Shivangi",
+      "last_name": "Sagpariya",
+      "email": "shivangi@gmail.com"
+    },
+    {
+      "id": 39,
+      "first_name": "Dhruv",
+      "last_name": "Patel",
+      "email": "dhruv@gmail.com"
+    },
+    {
+      "id": 40,
+      "first_name": "Dhruti",
+      "last_name": "Kakadiya",
+      "email": "dhruti@gmail.com"
+    },
+    {
+      "id": 41,
+      "first_name": "Ravi",
+      "last_name": "Boricha",
+      "email": "ravi@gmail.com"
+    },
+    {
+      "id": 42,
+      "first_name": "Jaydev",
+      "last_name": "Undkat",
+      "email": "jaydev@gmail.com"
+    },
+    {
+      "id": 43,
+      "first_name": "Hardik",
+      "last_name": "Kachdiya",
+      "email": "hardik@gmail.com"
+    },
+    {
+      "id": 44,
+      "first_name": "Dimple",
+      "last_name": "Patel",
+      "email": "dimple@gmail.com"
+    },
+    {
+      "id": 45,
+      "first_name": "Griv",
+      "last_name": "Mendapara",
+      "email": "griv@gmail.com"
+    },
+    {
+      "id": 46,
+      "first_name": "Vineet",
+      "last_name": "Pandya",
+      "email": "vineet@gmail.com"
+    },
+    {
+      "id": 47,
+      "first_name": "Devang",
+      "last_name": "Ahir",
+      "email": "devang@gmail.com"
+    },
+    {
+      "id": 48,
+      "first_name": "Keval",
+      "last_name": "Sonara",
+      "email": "keval@gmail.com"
+    },
+    {
+      "id": 49,
+      "first_name": "Vishal",
+      "last_name": "Joshi",
+      "email": "vishal@gmail.com"
+    },
+    {
+      "id": 50,
+      "first_name": "Sharad",
+      "last_name": "Patel",
+      "email": "sharad@gmail.com"
+    }
+  ]
+}

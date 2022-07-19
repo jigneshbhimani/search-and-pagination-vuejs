@@ -1,28 +1,93 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="overflow-auto">
+    <p class="mt-3 title">Current Page: {{ currentPage }}</p>
+    <div class="container">
+      <input
+        type="text"
+        placeholder="Search Here..."
+        class="mt-3 search"
+        v-model="search"
+        @keyup="getAllItems"
+      />
+      <br />
+      <br />
+      <div class="card">
+        <div class="card-body">
+          <b-table
+            id="my-table"
+            :items="items"
+            :per-page="perPage"
+            :current-page="currentPage"
+            large
+          ></b-table>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="pagination">
+      <b-pagination
+        v-model="currentPage"
+        :total-rows="rows"
+        :per-page="perPage"
+        aria-controls="my-table"
+      ></b-pagination>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import axios from "axios";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  data() {
+    return {
+      search: null,
+      perPage: 10,
+      currentPage: 1,
+      items: [],
+    };
+  },
+  computed: {
+    rows() {
+      return this.items.length;
+    },
+  },
+  methods: {
+    getAllItems() {
+      axios.get("http://localhost:3000/items").then((response) => {
+        if (this.search) {
+          this.items = response.data.filter(
+            (items) =>
+              items.id.toString().includes(this.search.toString()) ||
+              items.first_name
+                .toLowerCase()
+                .includes(this.search.toLowerCase()) ||
+              items.last_name
+                .toLowerCase()
+                .includes(this.search.toLowerCase()) ||
+              items.email.toLowerCase().includes(this.search.toLowerCase())
+          );
+        } else {
+          this.items = response.data;
+        }
+      });
+    },
+  },
+  created() {
+    this.getAllItems();
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.pagination {
+  margin-left: 23.5rem;
+}
+.title {
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+.search {
+  width: 30%;
+  border-radius: 10px;
 }
 </style>
